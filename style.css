@@ -1,0 +1,33 @@
+/* Body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    text-align: center;
+    color: #333;
+}
+
+/* Title styling (optional but useful) */
+h1 {
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+/* Image styling */
+img {
+    width: 300px;
+    max-width: 90%;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for modern feel */
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+	
